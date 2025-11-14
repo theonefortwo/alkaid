@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "alkaid"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[project.scripts]
+alkaid = "alkaid.main:main"
